@@ -1,3 +1,4 @@
+module.exports = function toReadable (number) {
  const ZERO_TO_NINETEEN = [
         "zero", "one", "two", "three", "four", "five",
         "six", "seven", "eight", "nine", "ten",
@@ -56,3 +57,4 @@ const RANK = [
     }
         
     return readableNumber.trim();
+}
